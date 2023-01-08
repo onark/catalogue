@@ -1,0 +1,14 @@
+
+DELETE http://localhost:3001/api/cat/3 HTTP/1.1
+
+###
+GET http://localhost:3001/api/cat/
+
+###
+POST https://stormy-peak-42771.herokuapp.com/api/cat/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "cat black",
+    "breed": "99"
+}
