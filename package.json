@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
+    "test": "cross-env NODE_ENV=test jest --verbose --runInBand --forceExit",
     "dev": "nodemon index.js",
     "lint": "eslint .",
     "deploy": "git push paas HEAD:master",
