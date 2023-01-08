@@ -1,0 +1,16 @@
+{
+  "cats": [
+    {
+      "name": "mini",
+      "breed": "persian",
+      "weight": "4",
+      "id": 28
+    },
+    {
+      "name": "powder",
+      "breed": "van",
+      "weight": "6",
+      "id": 31
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+.content-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.cats-container {
+  grid-column: 1 / 2;
+  margin: 10px 0;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #cccccc;
+}
+
+.form-container {
+  grid-column: 2 / 3;
+}
+
+.notification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 0;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.notification.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.notification.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.notification p {
+  margin: 0;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.search label {
+  margin-right: 10px;
+}
+
+.search input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form-wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #cccccc;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 120px;
+  margin-right: 20px;
+}
+
+input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+  padding: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color: #cccccc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr.selected {
+  border-style: solid;
+}
+
+.close-form-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5em;
+  padding: 0.25em;
+  border: none;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+}
+
+.close-form-button:hover {
+  color: #777;
+}
