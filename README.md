@@ -12,3 +12,5 @@ NODE v18.12.1
 * Database credentials are not pushed to repo, .env file ignored
 * The local will not be connected to db but it's deployed online
 * The app is deployed here https://catcatalogue.onrender.com/
+
+* Testing: npm test -- tests/cats_api.test.js

@@ -14,6 +14,10 @@
   box-shadow: 2px 2px 5px #cccccc;
 }
 
+.cats-body:hover {
+  cursor: pointer;
+}
+
 .form-container {
   grid-column: 2 / 3;
 }
